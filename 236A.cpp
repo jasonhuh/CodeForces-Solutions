@@ -15,5 +15,5 @@ string solve(const string& s) {
 
 int main() {
 	string s; cin >> s;
-	cout << solve(s);
+	cout << solve(s) << endl;
 }
