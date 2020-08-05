@@ -1,5 +1,4 @@
-#include <iostream>
-#include <algorithm>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -18,9 +17,12 @@ void solve() {
 
 }
 
-// Compile & Run: clang++ <code.cpp> -o <app> ; ./<app>
+// Compile & Run: clang++ -std=c++17 <code.cpp> -o <app> ; ./<app>
 
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+
 	int tc; cin >> tc;
     for (int t = 1; t <= tc; ++t) {
         solve();

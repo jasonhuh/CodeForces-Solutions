@@ -1,8 +1,6 @@
 // https://codeforces.com/problemset/problem/266/A
 
-#include <iostream>
-#include <algorithm>
-#include <string> 
+#include <bits/stdc++.h>
 
 using namespace std;
 
