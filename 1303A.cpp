@@ -5,14 +5,18 @@ using namespace std;
 typedef long long ll;
 typedef vector<int> vi;
 
-ll solve() {
-    int a; cin >> a;
-    return a * a;
+int solve(int n) {
+    return n * n;
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-	cout << solve() << endl;
+	int tc; cin >> tc;
+    int n;
+    while (tc--) {
+        cin >> n;
+        cout << solve(n) << endl;
+    }
 }
