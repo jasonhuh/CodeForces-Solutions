@@ -2,9 +2,6 @@
 
 using namespace std;
 
-#define reps(i,s,n) for(int (i) = (s); (i) < (n); (i)++)
-#define rep(i,n) reps(i,0,n)
-
 typedef long long ll;
 typedef vector<int> vi;
 
